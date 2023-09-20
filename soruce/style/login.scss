@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  form {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 47px;
+    background: #f1ea36;
+
+    padding: 25px;
+
+    .Logo_Utama {
+      width: 80%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 100px;
+      margin-top: 50px;
+    }
+
+    $input-border-color: #ffffff;
+
+    .input-with-icon {
+      width: 75%;
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 25px;
+
+      input {
+        margin-left: 30px;
+        width: 90%;
+        border: none;
+        border-radius: 25px;
+        border-bottom: 2px solid $input-border-color; // Garis bawah opsional
+
+        color: #605e5e;
+        font-family: "Inter";
+        font-size: 1.2rem;
+        font-style: normal;
+        line-height: normal;
+        &:focus {
+          outline: none;
+          border-bottom: none; // Ganti dengan warna fokus yang diinginkan
+        }
+      }
+      img {
+        height: 25px;
+        max-height: 25px;
+        width: auto;
+      }
+    }
+
+    input[type="button"] {
+      width: 78%;
+      margin: auto;
+      padding: 10px;
+      border-radius: 15px;
+
+      border: none;
+      cursor: pointer;
+      background: #4b5a8e;
+
+      color: #f1ea36;
+      font-family: "Inter";
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+      margin-bottom: 50px;
+    }
+  }
+}

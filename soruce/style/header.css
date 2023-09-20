@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+header {
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  width: 80vw;
+  right: 0px;
+  display: flex;
+  border-bottom: 2px solid #000000;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  height: 70%;
+  width: auto;
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0px 20px;
+}
+header p {
+  color: #000;
+  font-family: "Inter";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+}
+header .judul {
+  display: flex;
+  align-items: center;
+}
+header .profile {
+  display: flex;
+  align-items: center;
+}
+header .profile img {
+  max-width: 45px;
+  max-height: 45px;
+  border-radius: 99999px;
+}/*# sourceMappingURL=header.css.map */
