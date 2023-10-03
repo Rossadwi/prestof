@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+.tabel-cu {
+  width: 90%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  overflow-x: hidden;
+}
+.tabel-cu h4 {
+  width: 100%;
+  background: #6993d1;
+  padding: 10px 0px;
+  padding-left: 10px;
+  margin-top: 0px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.tabel-cu .grub-atas {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.tabel-cu .grub-atas .grub {
+  display: flex;
+  align-items: center;
+}
+.tabel-cu .grub-atas .grub p {
+  color: #000;
+  font-family: "Inter";
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0px;
+  margin-right: 5px;
+  line-height: normal;
+}
+.tabel-cu .grub-atas .grub input[type=number] {
+  width: 50px;
+  border-radius: 3px;
+  border: 0.5px solid #000;
+  background: rgba(182, 176, 176, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-right: 5px;
+  outline: none;
+}
+.tabel-cu .grub-atas .grub input[type=button] {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.tabel-cu table {
+  width: 95%;
+  margin: 20px auto;
+  text-align: left;
+  border-collapse: collapse;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 1rem;
+}
+.tabel-cu table thead {
+  border-bottom: 1px solid #000;
+}
+.tabel-cu table td {
+  padding: 10px 0px;
+}/*# sourceMappingURL=table-cu.css.map */

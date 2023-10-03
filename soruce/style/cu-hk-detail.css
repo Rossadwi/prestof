@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+html {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+main {
+  width: 78vw;
+  margin-left: 22vw;
+  margin-top: 10vh;
+}
+main .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  width: 90%;
+  margin: 20px 0px;
+}
+main .header h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+main .header a {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background: #464343;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 1rem;
+}
+main h2 {
+  color: #6993d1;
+  text-align: left;
+  font-family: Inter;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main form {
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 15px 15px 15px;
+  width: 90%;
+  height: -moz-max-content;
+  height: max-content;
+}
+main form table {
+  width: 100%;
+}
+main form table tr {
+  width: 100%;
+}
+main form table tr td {
+  padding: 5px 0px;
+}
+main form table tr td label {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main form table tr td input,
+main form table tr td select {
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  background: #fff;
+  padding: 5px 2px;
+  width: 90%;
+}
+main form table tr td input[type=file] {
+  border: none;
+}
+main form table tr td input[type=file]::file-selector-button {
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  background: #d9d9d9;
+  padding: 5px 20px;
+}
+main form .aksi-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+  color: #000;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main form .aksi-container input[type=button] {
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-left: 15px;
+  border: none;
+  cursor: pointer;
+}
+main form .aksi-container .tolak {
+  background: #e95555;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main form .aksi-container .terima {
+  color: #000;
+  background: #40ce79;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=cu-hk-detail.css.map */
